@@ -28,7 +28,7 @@
     <form id="form1" runat="server">
     <asp:Panel ID="Panel1" runat="server">
     </asp:Panel>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBDi89JWuQWOxH-tx6Mvdq53qcBmrpZoFA&libraries=places&sensor=false"></script>
+<script type="text/javascript" src="your api"></script>
 
 <script type="text/javascript">
     var source, destination;
