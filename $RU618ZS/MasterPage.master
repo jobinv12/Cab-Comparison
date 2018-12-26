@@ -1,0 +1,49 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/main.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+              <img src =pro_logo_3.png width="300"; />
+                </h1>
+            </div>
+             <div class="clear hideSkiplink">
+             
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="gmaps.aspx" Text="Comapre Cabs"/>
+                        <asp:MenuItem NavigateUrl="Aboutus.aspx" Text="About Us"/>
+
+                  </Items>
+                </asp:Menu>
+            </div>
+
+        </div>
+        <div class="main">
+    
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    </form>
+   <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58b3a5a52c0473c2"></script> 
+</body>
+</html>

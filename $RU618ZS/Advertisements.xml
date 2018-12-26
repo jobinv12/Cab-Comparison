@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>go-fareads3.png</ImageUrl>
+    <Navigateurl></Navigateurl>
+    <AlternateText>go-fare</AlternateText>
+  </Ad>
+ <Ad>
+   <ImageUrl>go-fareads.png</ImageUrl>
+   <Navigateurl></Navigateurl>
+    <AlternateText>yes</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>go-fareads2.png</ImageUrl>
+    <Navigateurl></Navigateurl>
+    <AlternateText>Go-Fare</AlternateText>
+  </Ad>
+</Advertisements>
